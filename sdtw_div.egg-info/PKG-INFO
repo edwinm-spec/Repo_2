@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: sdtw_div
+Version: 0.1
+Summary: Differentiable Divergences between Time Series.
+Home-page: https://github.com/google-research/soft-dtw-divergences
+Author: Google LLC
+Author-email: no-reply@google.com
+License: Apache2
+Keywords: machine learning time series dtw
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+License-File: LICENSE
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: scipy>=1.2.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

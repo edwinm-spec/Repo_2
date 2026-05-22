@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sdtw_div.egg-info/PKG-INFO
+sdtw_div.egg-info/SOURCES.txt
+sdtw_div.egg-info/dependency_links.txt
+sdtw_div.egg-info/requires.txt
+sdtw_div.egg-info/top_level.txt
