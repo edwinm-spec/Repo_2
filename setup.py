@@ -13,7 +13,6 @@
 # limitations under the License.
 
 """Install sdtw_div."""
-
 from setuptools import find_packages
 from setuptools import setup
 
@@ -21,7 +20,7 @@ setup(
     name='sdtw_div',
     version='0.1',
     description=(
-        'Differentiable Divergences between Time Series.'),
+        'Divergences between Time Series.'),
     author='Google LLC',
     author_email='no-reply@google.com',
     url='https://github.com/google-research/soft-dtw-divergences',
@@ -30,13 +29,15 @@ setup(
     package_data={},
     install_requires=[
         'numba',
-        'numpy',
-        'scipy>=1.2.0',
+        'numpy>=1.21.0',
+        'scipy>1.2.0',
     ],
     classifiers=[
         'Intended Audience :: Science/Research',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: Apache Software License',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
+        'Programming Language :: Python :: 3.6',
     ],
-    keywords='machine learning time series dtw',
+    keywords='machine learning time series dtw soft-dtw divergence',
+    python_requires='>=3.7',
 )
